@@ -14,25 +14,50 @@
             <h1 class="header__title">Lumen.</h1>
             <nav class="header__mainmenu">
                 <ul>
-                    <li><a class="mainmenu__link" href="">О нас</a></li>
-                    <li><a class="mainmenu__link" href="">Каталог</a></li>
-                    <li><a class="mainmenu__link" href="">Обратная связь</a></li>
+                    <li><a class="mainmenu__link" href="#about">О нас</a></li>
+                    <li><a class="mainmenu__link" href="#catalog">Каталог</a></li>
+                    <li><a class="mainmenu__link" href="#feedback">Обратная связь</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
         <section class="section banner">
-            <div class="container">
-                2
+            <div class="container banner__container">
+                <div class="banner__content">
+                    <h2 class="banner__title">Lumen<br>shape</h2>
+                    <button class="banner__btn">связаться</button>
+                </div>
+                <img class="banner__img" src="img/banner.png" alt="Светильник Lumen Shape">
             </div>
         </section>
-        <section class="section about">
+        <section class="section about" id="about">
             <div class="container">
-                3
+                <h2 class="about__title">О нас</h2>
+                <div class="about__intro">
+                    <img class="about__img" src="img/about.png" alt="Современный интерьер с декоративным светильником Lumen">
+                    <p class="about__text">Мы&nbsp;создаём современные светильники, объединяя стильный дизайн, качество и&nbsp;надёжность.<br>Наша продукция помогает сделать пространство уютным, функциональным и&nbsp;комфортным для&nbsp;жизни.</p>
+                </div>
+                <div class="about__benefits">
+                    <div class="benefit__card">
+                        <p class="benefit__text">10 лет<br>на рынке освещения</p>
+                    </div>
+                    <div class="benefit__card">
+                        <p class="benefit__text">24<br>месяца гарантии</p>
+                    </div>
+                    <div class="benefit__card">
+                        <p class="benefit__text">100+<br>уникальных моделей</p>
+                    </div>
+                    <div class="benefit__card">
+                        <p class="benefit__text">98%<br>довольных покупателей</p>
+                    </div>
+                    <div class="benefit__card">
+                        <p class="benefit__text">5000+<br>проданных ламп</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="section catalog">
+        <section class="section catalog" id="catalog">
             <div class="container">
                 <h2 class="catalog__title">Каталог</h2>
                 <div class="catalog">
@@ -83,7 +108,7 @@
                 </div>
             </div>
         </section>
-        <section class="section feedback">
+        <section class="section feedback" id="feedback">
             <div class="container">
                 <div class="feedback__intro">
                     <h2 class="feedback__title">Остались вопросы?</h2>
@@ -125,13 +150,30 @@
     </main>
     <footer class="footer">
         <section class="section contacts">
-            <div class="container">
-                6
+            <div class="container contacts__container">
+                <h2 class="footer__title">Lumen.</h2>
+                <div class="contacts__content">
+                    <p class="contacts__desc">Создаём уют с&nbsp;помощью света. Декоративные светильники ручной работы и&nbsp;премиальные коллекции для тех, кто ценит детали.</p>
+                    <div class="contacts__info">
+                        <div class="contacts__item">
+                            <a class="contacts__link" href="tel:+79991234567">+7 (999) 123-45-67</a>
+                        </div>
+                        <div class="contacts__item">
+                            <a class="contacts__link" href="mailto:hello@yoursite.ru">hello@yoursite.ru</a>
+                        </div>
+                        <div class="contacts__item">
+                            <p class="contacts__text">Бесплатная доставка<br>по РФ от 5 000&#8381;</p>
+                        </div>
+                        <div class="contacts__item">
+                            <p class="contacts__text">Обработка заказов:&nbsp;24/7</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="section copyright">
-            <div class="container">
-                7
+            <div class="container copyright__container">
+                <p class="copyright__text">@Lumen.2026</p>
             </div>
         </section>
     </footer>
