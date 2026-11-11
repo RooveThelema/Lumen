@@ -440,14 +440,6 @@ main .section {
     background-color: var(--accent-active-color);
 }
 
-/*дабы при клике кнопка чуть сжималась*/
-.banner__btn:active,
-.card__btn:active,
-.catalog__btn:active,
-.form__submit:active {
-    transform: scale(0.97);
-}
-
 /*подвал сайта*/
 .contacts {
     margin-bottom: 40px;
@@ -517,18 +509,6 @@ main .section {
     font-size: 24px;
     font-weight: 500;
     color: var(--white-color);
-}
-
-/*карточки чуть приподнимаются при наведении мыши*/
-.benefit__card,
-.catalog__card {
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.benefit__card:hover,
-.catalog__card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 28px var(--shadow-color);
 }
 
 
